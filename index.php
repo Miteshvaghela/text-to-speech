@@ -111,7 +111,6 @@
             }else{
                 charCount.innerHTML = 'Limit : '+ parseInt(characterLimit - text.value.length);
             }
-
             text.addEventListener('input', function(e){
                 let str = e.target.value; 
                 let strLen = str.trim().length;
